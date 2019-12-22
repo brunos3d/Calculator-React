@@ -21,7 +21,35 @@ export default function Calculator() {
     }
 
     function setOperation(operation) {
-        console.log(operation);
+        if (currentState.current === 0) {
+            let newState = { ...currentState };
+
+            newState.current = 1;
+            newState.clearDisplay = true;
+            newState.operation = operation;
+
+            setCurrentState(newState);
+        } else {
+            const equals = operation === "=";
+            const currentOperation = currentState.operation;
+
+            const values = [...currentState.values];
+            try {
+                values[0] = eval(`${values[0]} ${currentOperation} ${values[1]}`);
+            } catch (e) {
+                values[0] = currentState.values[0];
+            }
+
+            values[1] = 0;
+
+            setCurrentState({
+                displayValue: values[0],
+                clearDisplay: !equals,
+                operation: equals ? null : operation,
+                values,
+                current: equals ? 0 : 1
+            });
+        }
     }
 
     function addDigit(n) {
