@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import KeyboardEventHandler from "react-keyboard-event-handler";
 
 import { Container } from "./styles";
 
@@ -83,6 +84,9 @@ export default function Calculator() {
 
     return (
         <Container>
+            <KeyboardEventHandler handleKeys={["numeric", "."]} onKeyEvent={(key, e) => addDigit(key)} />
+            <KeyboardEventHandler handleKeys={["/", "*", "-", "+"]} onKeyEvent={(key, e) => setOperation(key)} />
+            <KeyboardEventHandler handleKeys={["enter"]} onKeyEvent={(key, e) => setOperation("=")} />
             <Display value={currentState.displayValue} />
             <Button label="AC" click={clearMemory} triple />
             <Button label="/" click={setOperation} operation />
