@@ -88,7 +88,9 @@ export default function Calculator() {
             <KeyboardEventHandler handleKeys={["/", "*", "-", "+"]} onKeyEvent={(key, e) => setOperation(key)} />
             <KeyboardEventHandler handleKeys={["enter"]} onKeyEvent={(key, e) => setOperation("=")} />
             <KeyboardEventHandler handleKeys={["del", "backspace"]} onKeyEvent={(key, e) => clearMemory()} />
+
             <Display value={currentState.displayValue} />
+
             <Button label="AC" click={clearMemory} triple />
             <Button label="/" click={setOperation} operation />
             <Button label="7" click={addDigit} />
