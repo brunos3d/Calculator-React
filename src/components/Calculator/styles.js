@@ -10,5 +10,5 @@ export const Container = styled.div`
     /* background: orange; */
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-auto-rows: 48px 48px 48px 48px 48px;
+    grid-auto-rows: 1fr 48px 48px 48px 48px 48px;
 `;

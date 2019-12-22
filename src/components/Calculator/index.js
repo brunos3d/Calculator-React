@@ -3,10 +3,12 @@ import React from "react";
 import { Container } from "./styles";
 
 import Button from "../Button";
+import Display from "../Display";
 
 export default function Calculator() {
     return (
         <Container>
+            <Display value={100} />
             <Button label="AC" />
             <Button label="/" />
             <Button label="7" />

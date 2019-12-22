@@ -1,3 +1,15 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+    grid-column: span 4;
+    background-color: #0004;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 20px;
+    font-size: 2.1em;
+
+    overflow: hidden;
+`;

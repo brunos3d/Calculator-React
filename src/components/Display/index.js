@@ -2,6 +2,6 @@ import React from "react";
 
 import { Container } from "./styles";
 
-export default function Display() {
-    return <Container></Container>;
+export default function Display({ value }) {
+    return <Container>{value}</Container>;
 }
