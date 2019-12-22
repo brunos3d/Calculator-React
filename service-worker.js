@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BrunoS3D/Calculator-React/precache-manifest.5e1bc55826a34a87115b641d78494994.js"
+  "/BrunoS3D/Calculator-React/precache-manifest.d736c9a487e38d4216d3a68adfb64319.js"
 );
 
 self.addEventListener('message', (event) => {
