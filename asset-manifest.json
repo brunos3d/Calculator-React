@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BrunoS3D/Calculator-React/static/css/main.f4cba712.chunk.css",
+    "main.js": "/BrunoS3D/Calculator-React/static/js/main.276e5c2c.chunk.js",
+    "main.js.map": "/BrunoS3D/Calculator-React/static/js/main.276e5c2c.chunk.js.map",
+    "runtime-main.js": "/BrunoS3D/Calculator-React/static/js/runtime-main.95bb3e3d.js",
+    "runtime-main.js.map": "/BrunoS3D/Calculator-React/static/js/runtime-main.95bb3e3d.js.map",
+    "static/js/2.e3c20fd3.chunk.js": "/BrunoS3D/Calculator-React/static/js/2.e3c20fd3.chunk.js",
+    "static/js/2.e3c20fd3.chunk.js.map": "/BrunoS3D/Calculator-React/static/js/2.e3c20fd3.chunk.js.map",
+    "index.html": "/BrunoS3D/Calculator-React/index.html",
+    "precache-manifest.5e1bc55826a34a87115b641d78494994.js": "/BrunoS3D/Calculator-React/precache-manifest.5e1bc55826a34a87115b641d78494994.js",
+    "service-worker.js": "/BrunoS3D/Calculator-React/service-worker.js",
+    "static/css/main.f4cba712.chunk.css.map": "/BrunoS3D/Calculator-React/static/css/main.f4cba712.chunk.css.map",
+    "static/js/2.e3c20fd3.chunk.js.LICENSE": "/BrunoS3D/Calculator-React/static/js/2.e3c20fd3.chunk.js.LICENSE",
+    "static/media/index.css": "/BrunoS3D/Calculator-React/static/media/RobotoMono-Thin.288302ea.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95bb3e3d.js",
+    "static/js/2.e3c20fd3.chunk.js",
+    "static/css/main.f4cba712.chunk.css",
+    "static/js/main.276e5c2c.chunk.js"
+  ]
+}
